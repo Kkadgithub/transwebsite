@@ -1,0 +1,35 @@
+.Home {
+  display: flex;
+
+  .left {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    width: 80%;
+
+    h2 {
+      color: #e97c17;
+      padding-left: 20px;
+      font-family: "Jost";
+      font-size: 28px;
+    }
+
+    .right-content {
+      width: 80%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      border-left: 1px solid #b4b4b3;
+
+      span {
+        font-family: "Jost";
+        font-size: 19px;
+      }
+    }
+  }
+}

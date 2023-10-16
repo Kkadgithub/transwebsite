@@ -1,0 +1,87 @@
+.Showcase {
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+
+  .left {
+    width: 22%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  //  h2 {
+  //     color: #e97c17  ;
+  //     font-family: "Jost";
+  //   }
+
+  //   .links {
+  //     width: 100%;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     gap: 10px;
+
+  //     a {
+  //       width: 80%;
+  //       padding: 4px 8px;
+  //       background-color: #e97c17  ;
+  //       color: white;
+  //       text-decoration: none;
+  //       border-radius: 6px;
+  //       font-family: "Jost";
+
+  //       .span {
+  //         font-size: 13px;
+  //       }
+  //     }
+  //   }
+
+  //   .logo {
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     gap: 15px;
+  //     margin-top: 20px;
+
+  //     img {
+  //       width: 80%;
+  //       height: 100px;
+  //     }
+
+  //     span {
+  //       font-size: 16px;
+  //       font-weight: bold;
+  //       color: #e97c17  ;
+  //       margin: 10px 0;
+  //       font-family: "Jost";
+  //     }
+  //   }
+
+  //   .contact-details {
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: flex-start;
+
+  //     h3 {
+  //       text-align: start;
+  //       margin-left: 15px;
+  //       font-family: "Jost";
+  //       color: #e97c17  ;
+  //     }
+
+  //     span {
+  //       text-align: start;
+  //       margin-left: 15px;
+  //       font-family: "Jost";
+  //     }
+  //   } 
+  }
+
+  .right {
+    width: 80%;
+    // background-color: whitesmoke;
+
+   
+  }
+}

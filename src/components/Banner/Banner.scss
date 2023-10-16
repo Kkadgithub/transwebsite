@@ -1,0 +1,156 @@
+.Banner {
+  width: 100%;
+  height: 270px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .left {
+    width: 35%;
+    height: 250px;
+    background: radial-gradient(circle at center, #f49140, #f36f21 100%);
+    transform-origin: left top;
+    -webkit-box-shadow: 9px 9px 5px -1px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 9px 9px 5px -1px rgba(0, 0, 0, 0.24);
+    box-shadow: 9px 9px 5px -1px rgba(0, 0, 0, 0.24);
+    transform: skewX(-30deg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    span {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 90px;
+      color: white;
+      transform: skewX(30deg);
+      font-size: 3.8vw;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      display: flex;
+      align-items: center;
+      font-family: "Jost";
+      line-height: 56px;
+    }
+  }
+
+  .mid {
+    width: 50%;
+    height: 250px;
+    position: relative;
+
+    .top {
+      width: 130%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 30px;
+      position: absolute;
+      top: 0;
+      right: -11em;
+
+      .box {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          text-decoration: none;
+          color: inherit;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 8px;
+          }
+
+          span {
+            text-wrap: wrap;
+            font-family: "Jost";
+            line-height: 22px;
+            font-size: 19px;
+          }
+        }
+      }
+    }
+    .bottom {
+      width: 130%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 30px;
+      position: absolute;
+      bottom: 0;
+      left: -170px;
+
+      .box {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 8px;
+          }
+
+          span {
+            text-wrap: wrap;
+            font-family: "Jost";
+            font-size: 19px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 15%;
+    height: 250px;
+    transform: translateX(-2%);
+    background: radial-gradient(circle at center, #f49140, #f36f21 100%);
+    transform-origin: right bottom;
+    transform: skewX(-30deg);
+    -webkit-box-shadow: -1px 9px 5px 5px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -1px 9px 5px 5px rgba(0, 0, 0, 0.24);
+    box-shadow: -4px 5px 5px 5px rgba(0, 0, 0, 0.24);
+  }
+}

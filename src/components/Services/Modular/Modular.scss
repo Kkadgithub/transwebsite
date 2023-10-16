@@ -1,0 +1,43 @@
+.Modular{
+    width: 100%;
+
+    h2{
+        padding-left: 20px ;
+        color: #e97c17;
+        font-size: 28px;
+        font-family: "Jost";
+    }
+
+    .modular-container{
+        padding: 0 20px;
+        display: flex;
+        border-left: 1px solid #b4b4b3;
+        
+
+        .modular-content{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding-right: 8px ;
+
+            span{
+                font-size: 19px;
+                font-family: "Jost";
+            }
+        }
+
+        .modular-img{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            border-left: 1px solid #b4b4b3;
+
+            img{
+                width: 70%;
+            }
+        }
+    }
+}
